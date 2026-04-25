@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Archive-At-Aome"
+  name: "Archive-At-Home"
   text: "让归档更简单"
   tagline: 搭建进行中
   actions:
@@ -12,7 +12,7 @@ hero:
       link: docs/home
     - theme: alt
       text: API 接入方法
-      link: docs/api
+      link: docs/server-api
 
 features:
   - title: 文档页面建设进行中
