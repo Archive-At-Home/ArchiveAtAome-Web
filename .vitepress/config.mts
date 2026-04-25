@@ -7,21 +7,31 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: '文档', link: '/docs/home' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'A@H',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '快速开始',
+            collapsed:false,
+            items:[
+              {text: '节点部署', link: 'docs/node'}
+            ]
+          },
+          { text: 'API',
+            items:[
+              {text: 'Server-api',link: 'docs/server-api'}
+            ]
+          }
         ]
       }
     ],
 
     socialLinks: [
+      { icon: 'telegram', link: 'https://t.me/ArchiveAtHome'},
       { icon: 'github', link: 'https://github.com/Archive-At-Home/ArchiveAtAome-Web' }
     ]
   }

@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "Archive-At-Aome"
-  text: "Archive At Aome's documentation site"
-  tagline: My great project tagline
+  text: "让归档更简单"
+  tagline: 搭建进行中
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 项目介绍
+      link: docs/home
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: API 接入方法
+      link: docs/api
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 文档页面建设进行中
+    details: 大概需要拐个会前端的来写主站（恼
+  - title: 纯公益项目
+    details: <s>来了只能打白工</s>
+  - title: 以下功能未完成 <s>画大饼</s>
+    details: Web管理后台
 ---
 
